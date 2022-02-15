@@ -1,0 +1,7 @@
+namespace: codewizard
+
+resources:
+  - Namespace.yaml
+  - mysql.yaml
+  - PersistentVolumeClaim.yaml
+  - server.yaml

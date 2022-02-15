@@ -1,0 +1,127 @@
+.container {
+  height: 100vh;
+
+}
+
+.chatbox {
+  border: solid black 1px;
+  /* margin-top: 5vh; */
+  max-height: 85%;
+  min-height: 85%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  background: linear-gradient(
+    to right,
+    rgba(3, 248, 187, 0.2),
+    rgba(223, 46, 246, 0.2)
+  );
+}
+
+/* .chatbox-user-message , .chatbox-server-message {
+    display: block;
+} */
+
+.chatbox-user-message {
+  position: relative;
+  /* right: 42.5vh; */
+  float: right;
+  background: linear-gradient(
+    to right,
+    rgba(54, 241, 110, 0.6),
+    rgba(2, 172, 2, 0.5)
+  ) !important;
+  margin-left: 55vh !important;
+}
+
+.chatbox-server-message {
+  position: relative;
+  /* right: 42.5vh; */
+  float: left;
+  background: linear-gradient(
+    to right,
+    rgba(46, 199, 238, 0.6),
+    rgba(32, 238, 204, 0.5)
+  ) !important;
+  margin-right: 55vh !important;
+}
+
+.chatbox-send-message {
+  position: absolute;
+  bottom: 2vh;
+  position: fixed;
+  left: 18vw;
+  
+}
+
+input {
+  max-width: 63%;
+  margin-left: -5vw;
+}
+
+button {
+  position: absolute;
+  left: 58vw;
+  bottom: 0.5vw;
+  width: 10vw;
+}
+
+.chatbox-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+option {
+  padding: 0.5vh;
+  cursor: pointer;
+}
+
+option:hover {
+  background-color: beige;
+  box-shadow: gray 0.1vh 0.1vh 0.1vh 0.1vh;
+  transition: 0.5s;
+}
+
+option:not(:hover) {
+  transition: 0.5s;
+}
+
+
+.forms{
+  margin-top: 45vh;
+  margin-left: 25vw;
+}
+
+.forms input{
+  width: 25vw;
+  padding: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  border: none;
+  border-bottom: solid blue 1px;
+}
+
+.forms input:hover {
+  transition: 0.5s;
+  box-shadow:0.1vh 0.1vh 0.3vh 0.1vh rgba(35, 208, 247, 0.6) 
+}
+
+.forms > form > .selectFormAction {
+  height: 5vh;
+  width: 25vw;
+  margin-bottom: 2vw;
+  background-color: antiquewhite;
+  margin-left: -5vw;
+}
+
+.selectFormAction  span {
+  margin-left: 5vw !important;
+  font-size: 1.5em;
+  height: 5vh;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+.selectFormAction > .active {
+  box-shadow: rgba(95, 153, 252, 0.5) 0.2vh 0.2vh 0.2vh 0.2vh;
+}

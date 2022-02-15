@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "file:///Users/shacharovadia/.vscode/extensions/atlassian.atlascode-2.10.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/remarkrc.json": "file:///Users/shacharovadia/Desktop/Projects/chatbot/Kube/mysql.yaml"
+    }
+}

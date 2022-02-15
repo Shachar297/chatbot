@@ -1,0 +1,7 @@
+config/
+node_modules/
+.env
+.history/
+package.json
+package-lock.json
+dockerPush.sh
