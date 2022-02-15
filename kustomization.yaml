@@ -1,4 +1,4 @@
-namespace: codewizard
+namespace: chatbot
 
 resources:
   - Namespace.yaml

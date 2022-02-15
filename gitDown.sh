@@ -1,0 +1,1 @@
+git fetch --all && git reset origin/$(git rev-parse --abbrev-ref HEAD) --hard
