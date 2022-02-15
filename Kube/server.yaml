@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: server
+  namespace: chatbot
 spec:
   selector:
     matchLabels:
@@ -31,4 +32,4 @@ spec:
     app: server
   ports:
   - port: 3000
-    targetPort: 3000
+    targetPort: 4321

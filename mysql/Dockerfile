@@ -1,5 +1,5 @@
 FROM mysql:latest
-
+USER root
 WORKDIR /var/
 
 ENV MYSQL_ROOT_PASSWORD yourpass
@@ -10,7 +10,9 @@ COPY ./schemes /var/
 # RUN chmod +x /var/scripts/scripts.sh
 # RUN /var/scirpts/scripts.sh
 
-ENTRYPOINT ["sudo"]
+
+
+#ENTRYPOINT ["sudo"]
 CMD ["/var/scripts/scripts.sh"]
 
 # RUN /scripts/scripts.sh
