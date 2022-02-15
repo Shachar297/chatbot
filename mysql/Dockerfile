@@ -2,7 +2,7 @@ FROM mysql:latest
 
 WORKDIR /var/
 
-ENV MYSQL_ROOT_PASSWORD 5366987S
+ENV MYSQL_ROOT_PASSWORD yourpass
 ENV MYSQL_USER root
 
 COPY ./scripts /var/
