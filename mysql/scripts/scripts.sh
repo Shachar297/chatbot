@@ -1,4 +1,4 @@
-ROOT_PASS=5366987S
+ROOT_PASS=yourpass
 ROOT=root
 
 cd /var/
